@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!-- Document type declaration -->
+<html lang="en"> <!-- Language declaration (English) -->
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding declaration -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport declaration for mobile devices -->
+    <title>Calculadora de IMC</title> <!-- Page title displayed in the browser tab -->
+</head>
+<body>
+    <h1>Calculadora de IMC</h1> <!-- Main title of the page -->
+    <form action="/imc" method="post"> <!-- Form to submit height and weight -->
+        <label for="altura">Digite sua altura:</label> <!-- Label for the height input -->
+        <input type="number" id="altura" name="altura" required> <!-- Input field for height -->
+        <label for="peso">Digite seu peso:</label> <!-- Label for the weight input -->
+        <input type="number" id="peso" name="peso" required> <!-- Input field for weight -->
+        <button type="submit">Enviar</button> <!-- Form submission button -->
+    </form>
+    <div id="imc">
+        {{ imc }}
+    </div>
+</body>
+</html>
