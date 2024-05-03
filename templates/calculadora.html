@@ -1,21 +1,37 @@
-<!DOCTYPE html> <!-- Document type declaration -->
-<html lang="en"> <!-- Language declaration (English) -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"> <!-- Character encoding declaration -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport declaration for mobile devices -->
-    <title>Calculadora de IMC</title> <!-- Page title displayed in the browser tab -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="../static/css/calculadora.css">
 </head>
 <body>
-    <h1>Calculadora de IMC</h1> <!-- Main title of the page -->
-    <form action="/imc" method="post"> <!-- Form to submit height and weight -->
-        <label for="altura">Digite sua altura:</label> <!-- Label for the height input -->
-        <input type="number" id="altura" name="altura" required> <!-- Input field for height -->
-        <label for="peso">Digite seu peso:</label> <!-- Label for the weight input -->
-        <input type="number" id="peso" name="peso" required> <!-- Input field for weight -->
-        <button type="submit">Enviar</button> <!-- Form submission button -->
+    <h1 class="fds">IMC</h1>
+    <h2 class="titulo">O que é IMC</h2>
+    <br>
+    <p class="oquee">O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive pela <br> Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a <br>partir do peso e da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, <br>que são usados para nortear o trabalho de profissionais de saúde e de educadores físicos.</p>
+    <h2 class="titulo">Calculadora de IMC</h2>
+    <form class="calculadora" action="/imc" method="post">
+        <div class="div1">
+            <label for="altura">Digite sua altura:</label>
+            <input type="number" id="altura" name="altura" required>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="div2">
+            <label for="peso">Digite seu peso:</label>
+            <input type="number" id="peso" name="peso" required>
+        </div>
+        <div class="bott">
+            <button class="botao" type="submit">Enviar</button>
+        </div>
+        <br>
+        <br>
+        <div id="imc">
+            {{ imc }}
+        </div>
     </form>
-    <div id="imc">
-        {{ imc }}
-    </div>
 </body>
 </html>

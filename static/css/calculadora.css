@@ -21,9 +21,9 @@ header.cabecalho{
     padding-top: 2em;
 }
 
-section nav a button.botao {
-    background-color: var(--cor-principal);
-    color: white;
+.botao {
+    background-color: var(--branco);
+    color: green;
     padding: 10px 20px; 
     border-style: none; 
     border-radius: 10px;
@@ -33,7 +33,7 @@ section nav a button.botao {
     margin-left: 40px;
 }
 
-section nav a button.botao:hover {
+.botao:hover {
     background-color: var(--cor-terciaria);
     transform: scale(1.05); 
 }
@@ -77,4 +77,53 @@ section p.p1{
 section.secao1{
     
 
+}
+.calculadora {
+    background-color: var(--cor-principal);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 33em;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    align-items: start;
+}
+
+.calculadora .bott {
+    align-self: center;
+    margin-top: 2em;
+}
+.botao {
+    padding: 1em;
+}
+.calculadora .div1 {
+    font-size: large;
+}
+.calculadora .div2 {
+    font-size: large;
+}
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+.fds {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0.5em;
+    color: var(--cor-secundaria);
+}
+.oquee {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: var(--cor-secundaria);
 }
