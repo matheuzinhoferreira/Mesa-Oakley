@@ -87,7 +87,7 @@ section p.p1{
     justify-content: center;
     border-radius: 10px;
     margin-top: 30px;
-    margin-left: 33em;
+    margin-left: 27em;
     margin-right: 40px;
     margin-bottom: 30px;
     width: 300px;
@@ -102,6 +102,12 @@ section p.p1{
 }
 .botao {
     padding: 1em;
+    background-color: var(--branco);
+    color: black;
+    padding: 10px 20px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
 }
 .calculadora .div1 {
     font-size: large;
@@ -125,7 +131,6 @@ section p.p1{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    color: var(--cor-secundaria);
 }
 .rodape{
     background-color: var(--cor-principal);
