@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="corpcontato">
+    <header class="cabecalho">
+       
+    </header>
+    <section class="secao">
+        <img class="logonutri" src="../static/img/logonutri.png" alt="Logo da empresa fictícia 'NutriOak'">
+        <p class="p1"> | </p>
+        <nav>
+            <a href="/"><button class="botao">Início</button></a>
+            <a href="/serviços"><button class="botao">Serviços</button></a>
+            <a href="/contato"><button class="botao">Contato</button></a>
+            <a href="/calculadora"><button class="botaodiferente">Calculadora IMC</button></a>
+        </nav>
+    </section>
+
+<section>
+  <div class="container.cont">
+    <h1 class="cont">Entre em Contato</h1>
+    <form class="formcont" caction="enviar.php" method="POST">
+      <label  class="cont" for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+    </br>
+</br>
+      <label  class="cont"  for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    </br>
+</br>
+      <label class="cont"  for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    </br>
+</br>
+      <button class="botcont" type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
+
+    <footer class="rodape">
+        <h3 class="textorodape">TODOS OS DIREITOS RESERVADOS</h3>
+    </footer>
+</body>
+</html>

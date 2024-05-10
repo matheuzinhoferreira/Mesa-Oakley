@@ -7,6 +7,10 @@
     --cor-principal:#3ab54a;
     --cor-secundaria:#8dc73f;
     --cor-terciaria: #b9ef72;
+    --cor-quaternaria: #006838;
+    --cor-quintenaria: #ed5e20;
+    --cor-sextenaria: #f36b31;
+    --cor-setenaria: #df4c0e;
     --branco: white;
 }
 
@@ -24,44 +28,44 @@ header.cabecalho{
 section nav a button.botao {
     background-color: var(--cor-principal);
     color: white;
-    padding: 10px 20px; 
-    border-style: none; 
+    padding: 10px 20px;
+    border-style: none;
     border-radius: 10px;
-    cursor: pointer; 
-    transition: 0.3s ease, 0.3s ease; 
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
     margin-top: 30px;
     margin-left: 40px;
 }
 
 section nav a button.botao:hover {
     background-color: var(--cor-terciaria);
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 section nav a button.botao:active {
     background-color: var(--cor-secundaria);
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 section nav a button.botaodiferente {
     background-color: var(--cor-principal);
     color: white;
-    padding: 10px 20px; 
-    border-style: none; 
-    cursor: pointer; 
-    transition: 0.3s ease, 0.3s ease; 
+    padding: 10px 20px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 520px;
 }
 
 section nav a button.botaodiferente:hover {
     background-color: var(--cor-terciaria);
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 section nav a button.botaodiferente:active {
     background-color: var(--cor-secundaria);
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 section img.logonutri{
@@ -74,7 +78,325 @@ section p.p1{
     color: var(--cor-principal);
 }
 
-section.secao1{
-    
+h1.h11{
+    font-size: 30px;
+    text-align: start;
+    color: var(--branco);
+    margin-bottom: 10px;
+}
+h2.h21{
+    font-size: px;
+    text-align: start;
+    color: var(--branco);
+    margin-bottom: 10px;
+}
 
+p.texto1{
+
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: start;
+    color: var(--branco);
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor-quaternaria);
+    padding: 1em;
+    justify-content: center;
+
+}
+
+section.secao2{
+    padding-top: 1px;
+    background-color: var(--cor-principal);
+}
+
+div.diverente{
+    margin-left: 100px;
+}
+
+button.blublu{
+    font-weight: bold;
+    font-size: large;
+    background-color: var(--cor-quintenaria);
+    color: white;
+    padding: 10px 35px;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-left: 40px;
+}
+
+button.blublu:hover {
+    background-color: var(--cor-sextenaria);
+    transform: scale(1.05);
+}
+
+button.bleble:active {
+    background-color: var(--cor-setenaria);
+    transform: scale(1.05);
+}
+
+button.bleble{
+    font-weight: bold;
+    font-size: large;
+    background-color: var(--cor-quintenaria);
+    color: white;
+    padding: 10px 35px;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-left: 40px;
+}
+
+button.bleble:hover {
+    background-color: var(--cor-sextenaria);
+    transform: scale(1.05);
+}
+
+button.bleble:active {
+    background-color: var(--cor-setenaria);
+    transform: scale(1.05);
+}
+
+img.nutricionista{
+    width: 306px;
+    height: 459px;
+
+}
+
+section.secao3{
+    padding-bottom: 1em;
+}
+
+h3.h31{
+    background-color: ;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--cor-principal);
+    margin-bottom: 10px;
+}
+
+
+div.dive{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-principal:#3ab54a;
+    --cor-secundaria:#8dc73f;
+    --cor-terciaria: #b9ef72;
+    --cor-quaternaria: #006838;
+    --cor-quintenaria: #ed5e20;
+    --cor-sextenaria: #f36b31;
+    --cor-setenaria: #df4c0e;
+    --branco: white;
+}
+
+section.secao{
+    text-align: none;
+    display:flex;
+    background-color: var(--branco)
+}
+
+header.cabecalho{
+    background-color: var(--cor-principal);
+    padding-top: 2em;
+}
+
+section nav a button.botao {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+section nav a button.botao:hover {
+    background-color: var(--cor-terciaria);
+    transform: scale(1.05);
+}
+
+section nav a button.botao:active {
+    background-color: var(--cor-secundaria);
+    transform: scale(1.05);
+}
+
+section nav a button.botaodiferente {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+    margin-top: 30px;
+    margin-left: 520px;
+}
+
+section nav a button.botaodiferente:hover {
+    background-color: var(--cor-terciaria);
+    transform: scale(1.05);
+}
+
+section nav a button.botaodiferente:active {
+    background-color: var(--cor-secundaria);
+    transform: scale(1.05);
+}
+
+section img.logonutri{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}  
+section p.p1{
+    font-size: 75px;
+    color: var(--cor-principal);
+}
+
+h1.h11{
+    font-size: 30px;
+    text-align: start;
+    color: var(--branco);
+    margin-bottom: 10px;
+}
+h2.h21{
+    font-size: px;
+    text-align: start;
+    color: var(--branco);
+    margin-bottom: 10px;
+}
+
+p.texto1{
+
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: start;
+    color: var(--branco);
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor-quaternaria);
+    padding: 1em;
+    justify-content: center;
+
+}
+
+section.secao2{
+    padding-top: 1px;
+    background-color: var(--cor-principal);
+}
+
+div.diverente{
+    margin-left: 100px;
+}
+
+button.blublu{
+    font-weight: bold;
+    font-size: large;
+    background-color: var(--cor-quintenaria);
+    color: white;
+    padding: 10px 35px;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-left: 40px;
+}
+
+button.blublu:hover {
+    background-color: var(--cor-sextenaria);
+    transform: scale(1.05);
+}
+
+button.bleble:active {
+    background-color: var(--cor-setenaria);
+    transform: scale(1.05);
+}
+
+button.bleble{
+    font-weight: bold;
+    font-size: large;
+    background-color: var(--cor-quintenaria);
+    color: white;
+    padding: 10px 35px;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-left: 40px;
+}
+
+button.bleble:hover {
+    background-color: var(--cor-sextenaria);
+    transform: scale(1.05);
+}
+
+button.bleble:active {
+    background-color: var(--cor-setenaria);
+    transform: scale(1.05);
+}
+
+img.nutricionista{
+    width: 306px;
+    height: 459px;
+
+}
+
+section.secao3{
+    padding-bottom: 1em;
+}
+
+h3.h31{
+    background-color: ;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--cor-principal);
+    margin-bottom: 10px;
+}
+
+
+div.dive{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: center;
+}
+.rodape{
+    background-color: var(--cor-principal);
+    padding-top: 15px;
+    padding-bottom: 19px;
+}
+.textorodape{
+    text-align: center;
+    color: rgb(63, 63, 63);
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
 }

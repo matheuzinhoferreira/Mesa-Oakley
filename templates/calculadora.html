@@ -7,31 +7,49 @@
     <link rel="stylesheet" href="../static/css/calculadora.css">
 </head>
 <body>
-    <h1 class="fds">IMC</h1>
-    <h2 class="titulo">O que é IMC</h2>
-    <br>
-    <p class="oquee">O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive pela <br> Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a <br>partir do peso e da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, <br>que são usados para nortear o trabalho de profissionais de saúde e de educadores físicos.</p>
-    <h2 class="titulo">Calculadora de IMC</h2>
-    <form class="calculadora" action="/imc" method="post">
-        <div class="div1">
-            <label for="altura">Digite sua altura:</label>
-            <input type="number" id="altura" name="altura" required>
-        </div>
+    <header class="cabecalho">
+       
+    </header>
+    <section class="secao">
+        <img class="logonutri" src="../static/img/logonutri.png" alt="Logo da empresa fictícia 'NutriOak'">
+        <p class="p1"> | </p>
+        <nav>
+            <a href="/"><button class="botao">Início</button></a>
+            <a href="/serviços"><button class="botao">Serviços</button></a>
+            <a href="/contato"><button class="botao">Contato</button></a>
+            <a href="/calculadora"><button class="botaodiferente">Calculadora IMC</button></a>
+        </nav>
+    </section>
+    <main>
+        <h1 class="fds">IMC</h1>
+        <h2 class="titulo">O que é IMC</h2>
         <br>
-        <br>
-        <br>
-        <div class="div2">
-            <label for="peso">Digite seu peso:</label>
-            <input type="number" id="peso" name="peso" required>
-        </div>
-        <div class="bott">
-            <button class="botao" type="submit">Enviar</button>
-        </div>
-        <br>
-        <br>
-        <div id="imc">
-            {{ imc }}
-        </div>
-    </form>
+        <p class="oquee">O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive pela <br> Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a <br>partir do peso e da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, <br>que são usados para nortear o trabalho de profissionais de saúde e de educadores físicos.</p>
+        <h2 class="titulo">Calculadora de IMC</h2>
+        <form class="calculadora" action="/imc" method="post">
+            <div class="div1">
+                <label for="altura">Digite sua altura:</label>
+                <input type="number" id="altura" name="altura" required>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="div2">
+                <label for="peso">Digite seu peso:</label>
+                <input type="number" id="peso" name="peso" required>
+            </div>
+            <div class="bott">
+                <button class="botao" type="submit">Enviar</button>
+            </div>
+            <br>
+            <br>
+            <div id="imc">
+                {{ imc }}
+            </div>
+        </form>
+    </main>
+    <footer class="rodape">
+        <h3 class="textorodape">TODOS OS DIREITOS RESERVADOS</h3>
+    </footer>
 </body>
 </html>

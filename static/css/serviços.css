@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-principal:#3ab54a;
+    --cor-secundaria:#8dc73f;
+    --cor-terciaria: #b9ef72;
+    --cor-quaternaria: #006838;
+    --cor-quintenaria: #ed5e20;
+    --cor-sextenaria: #f36b31;
+    --cor-setenaria: #df4c0e;
+    --branco: white;
+}
+
+section.secao{
+    text-align: none;
+    display:flex;
+    background-color: var(--branco)
+}
+
+header.cabecalho{
+    background-color: var(--cor-principal);
+    padding-top: 2em;
+}
+
+section nav a button.botao {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+section nav a button.botao:hover {
+    background-color: var(--cor-terciaria);
+    transform: scale(1.05);
+}
+
+section nav a button.botao:active {
+    background-color: var(--cor-secundaria);
+    transform: scale(1.05);
+}
+
+section nav a button.botaodiferente {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+    margin-top: 30px;
+    margin-left: 520px;
+}
+
+section nav a button.botaodiferente:hover {
+    background-color: var(--cor-terciaria);
+    transform: scale(1.05);
+}
+
+section nav a button.botaodiferente:active {
+    background-color: var(--cor-secundaria);
+    transform: scale(1.05);
+}
+
+section img.logonutri{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}  
+section p.p1{
+    font-size: 75px;
+    color: var(--cor-principal);
+}
+.secao1 {
+    background-color: #77ff89;
+    padding-bottom: 150px;
+}
+.text1so {
+    font-size: 50px;
+    font-weight: bold;
+    font-weight: 150;
+    background-image: linear-gradient(to bottom left, #27ff47, #15a000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 3px rgb(6, 181, 35);
+    text-align: center;
+    padding-top: 10px;
+    border: black 10px;
+}
+.titulo1 {
+    padding-top: 0px;
+    padding-left: 115px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    color: rgb(48, 48, 48);
+}
+.text1 {
+    padding-left: 110px;
+    font-size: 14px;
+    display: flex;
+    text-align: justify;
+    color: rgb(87, 87, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.textoimg{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-top: 55px;
+}
+.imagem1{
+    display: flex;
+    justify-content: space-between;
+    width:350px;
+}
+.titulo2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    justify-content: space-between;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    color: rgb(48, 48, 48);
+}
+.text2 {
+    font-size: 14px;
+    display: flex;
+    text-align: justify;
+    color: rgb(87, 87, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagem2{
+    display: flex;
+    padding-top: 35px;
+    justify-content: space-between;
+    width:350px;
+}
+
+.dv {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 200px;
+}
+.titulo3 {
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    color: rgb(48, 48, 48);
+}
+.text3 {
+    padding-left: 110px;
+    font-size: 14px;
+    display: flex;
+    text-align: justify;
+    color: rgb(87, 87, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagem3{
+    display: flex;
+    width:370px;
+    padding-top: 30px;
+    padding-left: 135px;
+}
+.dv2{
+    display: flex;
+}
+.titulo4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    font-size: 30px;
+    justify-content: space-between;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    color: rgb(48, 48, 48);
+}
+.text4{
+    font-size: 14px;
+    display: flex;
+    text-align: justify;
+    padding-right: 88px;
+    color: rgb(87, 87, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagem4{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 35px;
+    justify-content: space-between;
+    width:380px;
+}
+
+.dv3{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 200px;
+}
+.titulo5{
+    padding-top: 20px;
+    padding-left: 110px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    color: rgb(48, 48, 48);
+}
+.text5{
+    padding-left: 110px;
+    font-size: 14px;
+    display: flex;
+    text-align: justify;
+    color: rgb(87, 87, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagem5{
+    display: flex;
+    width:370px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.dv4{
+    display: flex;
+}
+.rodape{
+    background-color: var(--cor-principal);
+    padding-top: 15px;
+    padding-bottom: 19px;
+}
+.textorodape{
+    text-align: center;
+    color: rgb(63, 63, 63);
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}

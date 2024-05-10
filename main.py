@@ -31,5 +31,14 @@ def imc():
         tabela = 'Obesidade Grau 3'
     return render_template('calculadora.html', imc=f'O seu IMC: {imc}, sua classificação: {tabela}')
 
+@app.route("/contato")
+def contato():
+    return render_template('contato.html')
+
+@app.route("/serviços")
+def serviços():
+    return render_template('serviços.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
